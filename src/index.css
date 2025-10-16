@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+:root {
+  --accent: #00ff5b; /* green accent similar to screenshot */
+}
+
+html, body, #root { height: 100%; }
+body { background: #08090c; }
+
+/* small helper for sticky sidebar spacing */
+.shop-container { min-height: calc(100vh - 120px); }
